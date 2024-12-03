@@ -1,7 +1,7 @@
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-test
+
 part1 = 0
 part2 = 0
 output1 = []
