@@ -18,7 +18,7 @@ x = 0
 while x < 1000:
     output += abs(int(arr1sort[int(x)])-int(arr2sort[int(x)]))
     x += 1
-print(output)
+print(f"part 1 = {output}")
 
 output = 0
 x = 0
@@ -31,4 +31,4 @@ while x < 1000:
         y += 1
     output += int(arr1[x])*z
     x += 1
-print(output)
+print(f"part 2 = {output}")
